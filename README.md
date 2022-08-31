@@ -1,6 +1,6 @@
 # solidity-code-demos
-Requirements:
+Requirements:-
 Install Remix IDE
 Select contract
 Deploy the code
-Check deployed contractr
+Check deployed contract
