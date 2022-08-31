@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.c082d0b4"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "callHelloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addressB",
+						"type": "address"
+					}
+				],
+				"name": "setAddressB",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"call-function.sol": "A"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"call-function.sol": {
+			"keccak256": "0x35ed8b36416d4e310c8b3a14232b9d73cdc2969ee5a792b6d9b7bef867644a8a",
+			"urls": [
+				"bzz-raw://db6f38d197d638f8a5d54fdca890ee416f7e24582bbcff710c172dd97d25424f",
+				"dweb:/ipfs/QmRu5VUVLFzAvTyUEEQVbUUMYF3ypQfLS3FUtHoYmnPADE"
+			]
+		}
+	},
+	"version": 1
+}
