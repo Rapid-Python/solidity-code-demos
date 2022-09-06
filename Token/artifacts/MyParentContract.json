@@ -1,0 +1,68 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50604051608c380380608c83398181016040526020811015602f57600080fd5b810190808051906020019092919050505050603e80604e6000396000f3fe6080604052600080fdfea265627a7a723158203433e91806f056c136152309b013f204b3e37cb83c883f2585ac428e9f0fdcd364736f6c634300050b0032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH1 0x8C CODESIZE SUB DUP1 PUSH1 0x8C DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x2F JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP POP PUSH1 0x3E DUP1 PUSH1 0x4E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 CALLVALUE CALLER 0xe9 XOR MOD CREATE JUMP 0xc1 CALLDATASIZE ISZERO 0x23 MULMOD 0xb0 SGT CALLCODE DIV 0xb3 0xe3 PUSH29 0xB83C883F2585AC428E9F0FDCD364736F6C634300050B00320000000000 ",
+			"sourceMap": "28:73:0:-;;;61:35;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:35:0;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;61:35:0;;;;;;;;;;;;;;;;;28:73;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea265627a7a723158203433e91806f056c136152309b013f204b3e37cb83c883f2585ac428e9f0fdcd364736f6c634300050b0032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 CALLVALUE CALLER 0xe9 XOR MOD CREATE JUMP 0xc1 CALLDATASIZE ISZERO 0x23 MULMOD 0xb0 SGT CALLCODE DIV 0xb3 0xe3 PUSH29 0xB83C883F2585AC428E9F0FDCD364736F6C634300050B00320000000000 ",
+			"sourceMap": "28:73:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "a",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

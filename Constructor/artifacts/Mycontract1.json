@@ -1,0 +1,68 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060405160cd38038060cd83398181016040526020811015602f57600080fd5b810190808051906020019092919050505033600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050603e80608f6000396000f3fe6080604052600080fdfea265627a7a7231582098b4cd403c90bbfe43fd8b55c68ef8cd092dcbc6ac1dbbf5031dbddb86de65f864736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH1 0xCD CODESIZE SUB DUP1 PUSH1 0xCD DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x20 DUP2 LT ISZERO PUSH1 0x2F JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 ADD SWAP1 DUP1 DUP1 MLOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP CALLER PUSH1 0x1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH20 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP POP PUSH1 0x3E DUP1 PUSH1 0x8F PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 SWAP9 0xB4 0xCD BLOCKHASH EXTCODECOPY SWAP1 0xBB INVALID NUMBER REVERT DUP12 SSTORE 0xC6 DUP15 0xF8 0xCD MULMOD 0x2D 0xCB 0xC6 0xAC SAR 0xBB CREATE2 SUB SAR 0xBD 0xDB DUP7 0xDE PUSH6 0xF864736F6C63 NUMBER STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "196:127:0:-;;;256:64;8:9:-1;5:2;;;30:1;27;20:12;5:2;256:64:0;;;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;256:64:0;;;;;;;;;;;;;;;;302:10;294:5;;:18;;;;;;;;;;;;;;;;;;256:64;196:127;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea265627a7a7231582098b4cd403c90bbfe43fd8b55c68ef8cd092dcbc6ac1dbbf5031dbddb86de65f864736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 SWAP9 0xB4 0xCD BLOCKHASH EXTCODECOPY SWAP1 0xBB INVALID NUMBER REVERT DUP12 SSTORE 0xC6 DUP15 0xF8 0xCD MULMOD 0x2D 0xCB 0xC6 0xAC SAR 0xBB CREATE2 SUB SAR 0xBD 0xDB DUP7 0xDE PUSH6 0xF864736F6C63 NUMBER STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "196:127:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_a",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smartContrcatfromSC/smart-contract.sol": "LoanFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smartContrcatfromSC/smart-contract.sol": {
+			"keccak256": "0xbf102fe915849a9b8fe3702c1399c94741c8ccd1e003a24719734a7397fca075",
+			"urls": [
+				"bzz-raw://77c0ef69f1bff2647494fd2141608026e3d44ac2ab9c22910605da024782596e",
+				"dweb:/ipfs/QmULxXGmLwYMwhgQZgXVPRvH6BotKcJnH4v5SDQnesFHMU"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Constructor/MyContract.sol": "MyParentContract1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Constructor/MyContract.sol": {
+			"keccak256": "0xf5637a5f622e7ae9bbc972f6750204adf71782eee4960ebf0cecedc174d14629",
+			"urls": [
+				"bzz-raw://98824d6e5dcc27685e64275c96d5266c70424bc0efac2d93285f67008ce7dfdb",
+				"dweb:/ipfs/QmQ9FYGfF7BKSoJoWExb1ujutoD8KPe6KTeDJ6sNSzDciN"
+			]
+		}
+	},
+	"version": 1
+}

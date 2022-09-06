@@ -1,0 +1,91 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50609a8061001e6000396000f3fe60806040526004361060265760003560e01c80632980a5d314602b578063e8b5e51f146053575b600080fd5b348015603657600080fd5b50603d605b565b6040518082815260200191505060405180910390f35b60596063565b005b600047905090565b56fea265627a7a72315820c3cae0940160250e508ec34d09382c5310fbfb9515b7c1db1e608758d287e9ca64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x9A DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2980A5D3 EQ PUSH1 0x2B JUMPI DUP1 PUSH4 0xE8B5E51F EQ PUSH1 0x53 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x36 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x59 PUSH1 0x63 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SELFBALANCE SWAP1 POP SWAP1 JUMP JUMPDEST JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xC3 0xCA 0xE0 SWAP5 ADD PUSH1 0x25 0xE POP DUP15 0xC3 0x4D MULMOD CODESIZE 0x2C MSTORE8 LT 0xFB 0xFB SWAP6 ISZERO 0xB7 0xC1 0xDB 0x1E PUSH1 0x87 PC 0xD2 DUP8 0xE9 0xCA PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "28:174:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:174:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "60806040526004361060265760003560e01c80632980a5d314602b578063e8b5e51f146053575b600080fd5b348015603657600080fd5b50603d605b565b6040518082815260200191505060405180910390f35b60596063565b005b600047905090565b56fea265627a7a72315820c3cae0940160250e508ec34d09382c5310fbfb9515b7c1db1e608758d287e9ca64736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2980A5D3 EQ PUSH1 0x2B JUMPI DUP1 PUSH4 0xE8B5E51F EQ PUSH1 0x53 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x36 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 DUP3 DUP2 MSTORE PUSH1 0x20 ADD SWAP2 POP POP PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x59 PUSH1 0x63 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SELFBALANCE SWAP1 POP SWAP1 JUMP JUMPDEST JUMP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xC3 0xCA 0xE0 SWAP5 ADD PUSH1 0x25 0xE POP DUP15 0xC3 0x4D MULMOD CODESIZE 0x2C MSTORE8 LT 0xFB 0xFB SWAP6 ISZERO 0xB7 0xC1 0xDB 0x1E PUSH1 0x87 PC 0xD2 DUP8 0xE9 0xCA PUSH5 0x736F6C6343 STOP SDIV GT STOP ORIGIN ",
+			"sourceMap": "28:174:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;104:95;;8:9:-1;5:2;;;30:1;27;20:12;5:2;104:95:0;;;:::i;:::-;;;;;;;;;;;;;;;;;;;56:42;;;:::i;:::-;;104:95;147:4;170:21;163:28;;104:95;:::o;56:42::-;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "30800",
+				"executionCost": "81",
+				"totalCost": "30881"
+			},
+			"external": {
+				"balanceof()": "193",
+				"invest()": "120"
+			}
+		},
+		"methodIdentifiers": {
+			"balanceof()": "2980a5d3",
+			"invest()": "e8b5e51f"
+		}
+	},
+	"abi": [
+		{
+			"constant": true,
+			"inputs": [],
+			"name": "balanceof",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [],
+			"name": "invest",
+			"outputs": [],
+			"payable": true,
+			"stateMutability": "payable",
+			"type": "function"
+		}
+	]
+}
