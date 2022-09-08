@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "willThrow",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "willThrowInOtherContract",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Error-Handaling/error.sol": "Myerror"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Error-Handaling/error.sol": {
+			"keccak256": "0x3dbf44d229716507b82d9d99706fad4184e73093f3547d07db5d528cd8239d21",
+			"urls": [
+				"bzz-raw://725ff70a0bb9d4e41429fe0898a174bad4cf83e6be8731d84923b4ea5becd102",
+				"dweb:/ipfs/QmZMy1Fut2D42Di48S2WHfNkGdTkMocUtQWoJpUc3jSegp"
+			]
+		}
+	},
+	"version": 1
+}

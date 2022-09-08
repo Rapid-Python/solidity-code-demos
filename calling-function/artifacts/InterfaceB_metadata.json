@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.11+commit.22be8592"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "helloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"calling-function/ContractB.sol": "InterfaceB"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"calling-function/ContractB.sol": {
+			"keccak256": "0x85e0444299b0c4306912140b60c515e3f3bed961948998842e8a2958e74066bf",
+			"urls": [
+				"bzz-raw://6f26e38c47b4d794bfe31d9bed5f7ad1a27690528e854ff0bf8fac916affb362",
+				"dweb:/ipfs/QmU4uoSv1AyCjsiDfNs3yL8kX9Da9dE5Novv1t5vAirWxs"
+			]
+		}
+	},
+	"version": 1
+}

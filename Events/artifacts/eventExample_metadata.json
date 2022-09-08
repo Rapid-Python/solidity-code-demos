@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.4.21+commit.dfe3193c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "Increment",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"addition-event.sol": "eventExample"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"addition-event.sol": {
+			"keccak256": "0xfad23ee789fff9d49403c08fda64f0e65fc814529750dafd19fe8bbba3281979",
+			"urls": [
+				"bzzr://91ccb99e4b58229b2dc1bcd39ceddc5a23942a54f5c4892b86ea53fe4506ffa8"
+			]
+		}
+	},
+	"version": 1
+}

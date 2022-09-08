@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.Modifiers/artifacts
+.calling-function/artifacts
+.Constructor/artifacts
+.Error-Handaling/artifacts
+.Events/artifacts
+.smartContractfromSC/artifacts
+.Token/artifacts
